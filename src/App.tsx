@@ -20,7 +20,7 @@ function App() {
 		button: "The name of the button"
 	}
 
-	const data2: DataTwoObjType[]  = [
+	const data2: DataTwoObjType[] = [
 		{id: 1, name: 'Alex', message: "Hi."},
 		{id: 2, name: 'Anna', message: "Hello."},
 		{id: 3, name: 'Roma', message: "I'm sorry, I'm busy!"},

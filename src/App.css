@@ -1,11 +1,12 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.messagesContainer{
-  display: flex;
-  justify-content: space-evenly;
+.messagesContainer {
+    display: flex;
+    justify-content: space-evenly;
 }
+
 .messagesContainer > div > ul > li {
-  list-style-type: none;
+    list-style-type: none;
 }
