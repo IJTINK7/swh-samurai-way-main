@@ -1,12 +1,7 @@
 .App {
     text-align: center;
 }
-
-.messagesContainer {
+.container {
     display: flex;
     justify-content: space-evenly;
-}
-
-.messagesContainer > div > ul > li {
-    list-style-type: none;
 }
