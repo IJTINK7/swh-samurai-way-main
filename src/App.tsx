@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import {Home} from "./components/Home";
 import {Messages} from "./components/Messages";
+import {Header} from "./components/Header";
+import {Navigate} from "./components/Navigate";
 
 export type DataOneType = {
 	image: string
@@ -34,6 +36,14 @@ function App() {
 			Samurai will help!!!
 			<Home data1={data1}/>
 			<Messages data2={data2}/>
+			<div>
+				<Header/>
+				<div className={"container"}>
+					<Navigate/>
+					<Home data1={data1}/>
+					<Messages data2={data2}/>
+				</div>
+			</div>
 		</div>
 	);
 }
