@@ -1,4 +1,4 @@
-import {DataOneType} from "../App";
+import {DataOneType} from "../../App";
 import "./Home.css"
 
 type HomePropsType = {

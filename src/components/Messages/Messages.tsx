@@ -1,16 +1,18 @@
 import React from 'react';
-import {DataTwoObjType} from "../App";
-import "./Messages.css"
+import {DataTwoObjType} from "../../App";
+// import "./Messages.css"
+import styles from "./Messages.module.css"
+
 
 type MessagesPropsType = {
 	data2: DataTwoObjType[]
 }
 export const Messages = (props: MessagesPropsType) => {
 	return (
-		<div className={"messages"}>
+		<div className={styles.messages}>
 			<h1>Messages</h1>
-			<div className={"messagesContainer"}>
-				<div className={"item"}>
+			<div className={styles.messagesContainer}>
+				<div className={styles.item}>
 					<ul>
 						{props.data2.map((el) => {
 							return (

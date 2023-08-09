@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import {Home} from "./components/Home";
-import {Messages} from "./components/Messages";
-import {Header} from "./components/Header";
-import {Navigate} from "./components/Navigate";
+import {Home} from "./components/Home/Home";
+import {Messages} from "./components/Messages/Messages";
+import {Header} from "./components/Header/Header";
+import {Navigate} from "./components/Navigate/Navigate";
 
 export type DataOneType = {
 	image: string
