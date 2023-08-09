@@ -1,3 +1,6 @@
+.messages{
+    background-color: dodgerblue;
+}
 .messagesContainer {
     display: flex;
     justify-content: space-evenly;
