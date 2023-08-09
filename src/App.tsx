@@ -33,9 +33,9 @@ function App() {
 
 	return (
 		<div className="App">
-			Samurai will help!!!
-			<Home data1={data1}/>
-			<Messages data2={data2}/>
+			{/*Samurai will help!!!*/}
+			{/*<Home data1={data1}/>*/}
+			{/*<Messages data2={data2}/>*/}
 			<div>
 				<Header/>
 				<div className={"container"}>
