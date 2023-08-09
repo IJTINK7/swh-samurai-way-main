@@ -10,7 +10,7 @@ export const Messages = (props: MessagesPropsType) => {
 		<div className={"messages"}>
 			<h1>Messages</h1>
 			<div className={"messagesContainer"}>
-				<div>
+				<div className={"item"}>
 					<ul>
 						{props.data2.map((el) => {
 							return (
