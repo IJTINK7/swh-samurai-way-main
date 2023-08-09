@@ -3,7 +3,7 @@ import "./Navigate.css"
 
 export const Navigate = () => {
 	return (
-		<div className={"navigateContainer"}>
+		<div className={"navigate"}>
 			<div className={"item"}>Home</div>
 			<div className={"item"}>Messages</div>
 			<div className={"item"}>Music</div>
