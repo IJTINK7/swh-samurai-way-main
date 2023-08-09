@@ -1,12 +1,13 @@
 import React from 'react';
 import {DataTwoObjType} from "../App";
+import "./Messages.css"
 
 type MessagesPropsType = {
 	data2: DataTwoObjType[]
 }
 export const Messages = (props: MessagesPropsType) => {
 	return (
-		<>
+		<div>
 			<h1>Messages</h1>
 			<div className={"messagesContainer"}>
 				<div>
@@ -29,6 +30,6 @@ export const Messages = (props: MessagesPropsType) => {
 					</ul>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
